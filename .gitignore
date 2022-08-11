@@ -1,3 +1,11 @@
+# Folders
+/data
+/color_results
+/compressed_results
+/resized_alg_results
+/resized_results
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
