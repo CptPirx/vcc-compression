@@ -8,7 +8,7 @@ Visual Crowd Counting for Smart City Applications"](https://arxiv.org/abs/2207.1
 2. Download the Shanghai Tech B [dataset](https://drive.google.com/drive/folders/13Sz1UNPN96cahwLubvS2aRxOGOUCyQ_i) 
 and place it in the ```./data/shanghai_tech_cc``` folder
 3. Unzip the file
-4. Run ```python prepare_dataset.py --data_path ./shanghai_tech_cc/part_B_final```
+4. Run ```python prepare_dataset.py --data_path ./data/shanghai_tech_cc/part_B_final```
 5. For each experiment, modify `SELECTED_GPUS` to specify which GPUs to use (if you only have a single GPU available, 
 set `SELECTED_GPUS = [0]`)
 
